@@ -65,6 +65,14 @@ const Navbar = () => {
             </Link>
           ))}
           <a
+            href="https://codolio.com/profile/pavankalyan"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-300 hover:text-white cursor-pointer text-sm font-medium transition-colors hover:glow"
+          >
+            Codolio
+          </a>
+          <a
             href="https://github.com/PavanKalyan1430"
             target="_blank"
             rel="noreferrer"

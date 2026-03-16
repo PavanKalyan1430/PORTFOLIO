@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ChevronDown, Link as LinkIcon } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -82,6 +82,7 @@ const Hero = () => {
             {[
               { icon: <Github />, href: 'https://github.com/PavanKalyan1430' },
               { icon: <Linkedin />, href: 'https://linkedin.com/in/kalyan6565' },
+              { icon: <LinkIcon />, href: 'https://codolio.com/profile/pavankalyan', label: 'Codolio' },
               { icon: <Mail />, href: 'mailto:pavankalyanreddy2525@gmail.com' }
             ].map((social, index) => (
               <a 
