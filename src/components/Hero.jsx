@@ -109,12 +109,11 @@ const Hero = () => {
           
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full p-2 bg-gradient-to-br from-brand-400/30 to-blue-500/30 backdrop-blur-3xl border border-white/20 animate-float">
             <div className="w-full h-full rounded-full overflow-hidden bg-brand-950 border border-white/10 relative group">
-              {/* Optional: Add an actual image path here src="/profile.jpg" */}
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-600 to-blue-600 opacity-80 mix-blend-overlay z-10 group-hover:opacity-50 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-600 to-blue-600 opacity-20 mix-blend-overlay z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
               <img 
-                src="https://ui-avatars.com/api/?name=Pavan+Kalyan&size=512&background=0D0A1C&color=a78bfa" 
+                src="/avatar.jpg" 
                 alt="Pavan Kalyan" 
-                className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-105"
+                className="w-full h-full object-cover object-top scale-125 group-hover:scale-150 transition-all duration-700"
               />
             </div>
             
