@@ -66,7 +66,7 @@ const Projects = () => {
                 {project.title}
               </h4>
               
-              <div className="glass-card p-6 md:p-8 rounded-2xl mb-6 lg:w-[120%] relative lg:-ml-[20%] z-30 shadow-2xl">
+              <div className="glass-card p-6 md:p-8 rounded-2xl mb-6 relative z-30 shadow-2xl">
                 <p className="text-gray-300 leading-relaxed text-sm md:text-base">
                   {project.desc}
                 </p>
