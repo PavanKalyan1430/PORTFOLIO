@@ -22,8 +22,9 @@ const skillsData = [
   {
     category: 'Backend & Data/AI',
     items: [
-      { name: 'Node.js / Express', level: 75 },
-      { name: 'MongoDB', level: 75 },
+      { name: 'FastAPI', level: 80 },
+      { name: 'Flask', level: 85 },
+      { name: 'PostgreSQL', level: 80 },
       { name: 'Machine Learning', level: 70 },
       { name: 'Pandas / NumPy', level: 80 },
     ],

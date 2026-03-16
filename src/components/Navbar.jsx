@@ -65,12 +65,19 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="https://github.com/pavankalyan"
+            href="https://github.com/PavanKalyan1430"
             target="_blank"
             rel="noreferrer"
-            className="px-5 py-2.5 rounded-full text-sm font-semibold bg-white/10 hover:bg-white/20 border border-white/10 hover:border-white/30 transition-all text-white backdrop-blur-md"
+            className="text-gray-300 hover:text-white cursor-pointer text-sm font-medium transition-colors hover:glow"
           >
             GitHub
+          </a>
+          <a
+            href="/resume.pdf"
+            download="Pavan_Kalyan_Resume.pdf"
+            className="px-5 py-2.5 rounded-full text-sm font-semibold bg-white/10 hover:bg-white/20 border border-white/10 hover:border-white/30 transition-all text-white backdrop-blur-md"
+          >
+            Resume
           </a>
         </div>
 

@@ -4,31 +4,22 @@ import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 const projects = [
   {
     title: 'Vehicle Tracking & Geofence System',
-    desc: 'Geofence-based backend automation system tracking live trip monitoring. Engineered event-driven logic reducing manual monitoring by 70%.',
+    desc: 'Developed a robust geofence-based backend automation system designed to track live trip monitoring. By engineering an advanced event-driven logic architecture using Node.js and MongoDB, this platform successfully reduced manual monitoring dependency by 70%. Integrated REST APIs handle high-frequency geolocation data processing in real time.',
     tags: ['Node.js', 'Express', 'MongoDB', 'REST APIs', 'Geofencing'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/PavanKalyan1430',
     image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000',
     color: 'from-blue-500/20 to-cyan-500/20',
   },
   {
     title: 'Resume Ranker: AI Platform',
-    desc: 'NLP-based pipeline evaluating candidate-job fit using TF-IDF and Cosine Similarity, improving screening turnaround by 2x.',
+    desc: 'Built a comprehensive NLP-based pipeline evaluating candidate-job fit. The platform leverages TF-IDF vectorization and Cosine Similarity to deeply analyze resumes against job descriptions. This intelligent matching system improved recruitment screening turnaround time by 2x, providing an intuitive React frontend and a powerful Python Flask backend.',
     tags: ['Python', 'Flask', 'PostgreSQL', 'NLP', 'React'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/PavanKalyan1430',
     image: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&q=80&w=1000',
     color: 'from-brand-500/20 to-pink-500/20',
-  },
-  {
-    title: 'Fake Job Detection System',
-    desc: 'Machine learning classification system identifying fraudulent job postings across massive employment datasets.',
-    tags: ['Machine Learning', 'Python', 'Scikit-Learn', 'Pandas'],
-    link: '#',
-    github: '#',
-    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=1000',
-    color: 'from-emerald-500/20 to-teal-500/20',
-  },
+  }
 ];
 
 const Projects = () => {

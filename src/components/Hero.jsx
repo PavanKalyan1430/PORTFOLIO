@@ -35,10 +35,9 @@ const Hero = () => {
           <div className="text-xl md:text-3xl font-medium text-gray-300 mb-6 h-[40px]">
             <TypeAnimation
               sequence={[
-                'Full-Stack Developer', 1000,
-                'UI/UX Enthusiast', 1000,
                 'AI & Data Explorer', 1000,
                 'Problem Solver', 1000,
+                'ML Enthusiast', 1000,
               ]}
               wrapper="span"
               speed={50}
@@ -61,6 +60,13 @@ const Hero = () => {
               <span className="relative z-10">View Projects</span>
               <div className="absolute inset-0 bg-gradient-to-r from-brand-300/0 via-brand-400/30 to-brand-300/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
             </Link>
+            <a 
+              href="/resume.pdf"
+              download="Pavan_Kalyan_Resume.pdf"
+              className="relative px-8 py-4 w-full sm:w-auto text-center rounded-xl font-semibold bg-brand-600/20 text-brand-300 hover:bg-brand-500 hover:text-white border border-brand-500/50 transition-all cursor-pointer group overflow-hidden"
+            >
+              Download Resume
+            </a>
             
             <Link 
               to="contact" 
@@ -74,7 +80,7 @@ const Hero = () => {
           
           <div className="flex items-center justify-center lg:justify-start gap-5">
             {[
-              { icon: <Github />, href: 'https://github.com/pavankalyan' },
+              { icon: <Github />, href: 'https://github.com/PavanKalyan1430' },
               { icon: <Linkedin />, href: 'https://linkedin.com/in/kalyan6565' },
               { icon: <Mail />, href: 'mailto:pavankalyanreddy2525@gmail.com' }
             ].map((social, index) => (
