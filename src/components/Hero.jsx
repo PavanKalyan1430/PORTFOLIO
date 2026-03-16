@@ -113,7 +113,7 @@ const Hero = () => {
               <img 
                 src="/avatar.jpg" 
                 alt="Pavan Kalyan" 
-                className="w-full h-full object-cover object-top scale-[1.05] group-hover:scale-110 transition-all duration-700"
+                className="w-full h-full object-cover object-[center_20%] scale-[1.15] group-hover:scale-[1.25] transition-all duration-700"
               />
             </div>
             
