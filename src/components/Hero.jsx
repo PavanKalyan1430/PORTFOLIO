@@ -112,7 +112,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full overflow-hidden bg-brand-950 border border-white/10 relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-brand-600 to-blue-600 opacity-20 mix-blend-overlay z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
               <img 
-                src="/avatar.jpg" 
+                src="/avatar.jpeg" 
                 alt="Pavan Kalyan" 
                 className="w-full h-full object-cover object-top scale-[1.05] group-hover:scale-[1.15] transition-all duration-700"
               />
